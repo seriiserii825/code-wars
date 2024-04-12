@@ -9,5 +9,5 @@ def isograms(string):
     # return True if len(set(string)) != len(string) else False
     return True if len(set(string.lower())) == len(string.lower()) else False
 
-print(isograms('myNewstring'))
+print(isograms('myNewstr'))
 
