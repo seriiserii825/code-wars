@@ -11,5 +11,5 @@ def rgbToHex(string):
         elif (result > 255):
             result = 255
         colors.append(result)
-    return f'#{colors[0]:02x}{colors[1]:02x}{colors[2]:02x}'
+    return f'#{colors[0]:02x}{colors[1]:02x}{colors[2]:02x}'.upper()
 print(rgbToHex('rgb(823,182,18)'))
