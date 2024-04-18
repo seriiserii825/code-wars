@@ -5,6 +5,6 @@ def extractDomain(url):
 
 print(extractDomain('http://github.com/carbonfive/raygun'))
 print(extractDomain('http://www.zombie-bites.com'))
-print(extractDomain('http://www.cnet.com'))
+print(extractDomain('https://www.cnet.com'))
 print(extractDomain('www.bitbucket.com'))
 
